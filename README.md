@@ -1,2 +1,2 @@
 # Moralis
-Trying out the Moralis React boilerplate
+Trying out the Moralis React package
