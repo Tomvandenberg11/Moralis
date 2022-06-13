@@ -1,14 +1,11 @@
 import React from 'react'
-import HeaderComponent from "./components/header";
-import ContainerComponent from "./components/container";
+import HeaderComponent from './components/header'
+import ContainerComponent from './components/container'
 
-
-
-const App = () =>  (
+const App = () =>
   <>
     <HeaderComponent/>
     <ContainerComponent/>
   </>
-)
 
 export default App

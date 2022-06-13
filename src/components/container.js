@@ -1,6 +1,6 @@
+import React from 'react'
 import styled from 'styled-components'
-import {useMoralis, useNativeBalance, useNFTBalances} from "react-moralis";
-import React from "react"
+import {useMoralis, useNativeBalance, useNFTBalances} from 'react-moralis'
 
 const Container = styled.div`
   width: 70%;
@@ -25,7 +25,7 @@ const ContainerComponent = () => {
 
   const CryptoBalances = () => <p style={{marginTop: 80, textAlign: 'center'}}><b>Balance on current network: </b>{balance.formatted}</p>
 
-  const NFTBalances = () => (
+  const NFTBalances = () =>
     <div style={{marginTop: 80}}>
         {data
           ? <>
@@ -42,7 +42,6 @@ const ContainerComponent = () => {
           : <Title>No NFT's found on this network</Title>
         }
     </div>
-  )
 
   return (
     <Container>
