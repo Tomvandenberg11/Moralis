@@ -34,7 +34,7 @@ const ContainerComponent = () => {
                 { data.result.map((item) => (
                   <div key={item.token_id}>
                     {item.image && <img style={{width: '150px', display: 'block', margin: 'auto'}} alt="NFT" src={item.image} />}
-                    <p>{item.name} #{item.token_id}</p>
+                    <p style={{textAlign: 'center'}}>{item.name} #{item.token_id}</p>
                   </div>
                 ))}
               </NFTContainer>
